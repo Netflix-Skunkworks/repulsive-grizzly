@@ -1,0 +1,20 @@
+{"files":
+[
+  "grizzly_util.py",
+  "requirements.txt",
+  "grizzly.py",
+  "attacks/attack_prod_1.json",
+  "attacks/attack_prod_2.json",
+  "attacks/attack_prod_3.json",
+  "attacks/attack_prod_4.json",
+  "attacks/attack_prod_5.json",
+  "attacks/attack_stage_1.json",
+  "attacks/attack_stage_2.json",
+  "attacks/attack_stage_3.json",
+  "attacks/attack_stage_4.json",
+  "attacks/attack_stage_5.json",
+  "attacks/attack_stage_6.json",
+  "attack-user-cookies.json",
+  "non-member-cookies.json",
+  "member-cookies.json"
+]}

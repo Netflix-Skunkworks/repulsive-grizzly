@@ -1,0 +1,10 @@
+boto
+boto3
+docopt
+futures
+pip-tools
+requests
+eventlet
+
+# magical version of eventlet
+# https://github.com/eventlet/eventlet/archive/b2e5146dec8f6fe075884dcf788f64a16bc3fec3.zip

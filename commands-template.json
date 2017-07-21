@@ -1,0 +1,24 @@
+{
+  "hostname": "www.yourcompaniessitehere.com",
+  "urls": [
+    "https://www.yourcompaniessitehere.com?foo=$$AUTH$$",
+    "https://www.yourcompaniessitehere.co?test"
+  ],
+  "perform_sanity_check": true,
+  "sanity_check_url": "https://www.www.yourcompaniessitehere.com/healthcheck",
+  "verb": "GET",
+  "post_data": "example.json",
+  "ttl": 300,
+  "threads": 300,
+  "one_url_per_agent": true,
+  "headers": "default",
+  "start_time": "01:59:00",
+  "use_auth": true,
+  "auth_store_count": 3,
+  "auth_store_name": "tokens",
+  "use_with_kraken": true,
+  "sns_region": "us-west-2",
+  "sns_topic": "arn:aws:sns:us-west-2:2398724230498:kraken",
+  "proxy": false,
+  "proxy_config": "127.0.0.1:8080"
+}

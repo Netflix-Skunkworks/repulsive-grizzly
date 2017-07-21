@@ -1,0 +1,12 @@
+.idea
+foo
+__pycache__
+.git
+griz
+pyenv
+*.swp
+*.pyc
+temp/
+py3/
+evtest/
+
