@@ -1,24 +1,24 @@
 {
-  "hostname": "www.yourcompaniessitehere.com",
+  "hostname": "www.netflix.com",
   "urls": [
-    "https://www.yourcompaniessitehere.com?foo=$$AUTH$$",
-    "https://www.yourcompaniessitehere.co?test"
+    "https://www.netflix.com/?foo=$$AUTH$$",
+    "https://www.netflix.com/geo?test"
   ],
   "perform_sanity_check": true,
-  "sanity_check_url": "https://www.www.yourcompaniessitehere.com/healthcheck",
-  "verb": "GET",
+  "sanity_check_url": "https://www.netflix.com/account/geo",
+  "verb": "POST",
   "post_data": "example.json",
   "ttl": 300,
-  "threads": 300,
+  "threads": 3,
   "one_url_per_agent": true,
   "headers": "default",
   "start_time": "01:59:00",
   "use_auth": true,
   "auth_store_count": 3,
   "auth_store_name": "tokens",
-  "use_with_kraken": true,
+  "use_with_kraken": false,
   "sns_region": "us-west-2",
-  "sns_topic": "arn:aws:sns:us-west-2:902362140336:grizzly",
+  "sns_topic": "arn:aws:sns:us-west-2:230498293084:grizzly",
   "proxy": false,
   "proxy_config": "127.0.0.1:8080"
 }
