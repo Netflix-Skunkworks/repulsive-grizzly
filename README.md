@@ -8,7 +8,7 @@ Repulsive Grizzly is an application layer load testing framework specifically de
 
 ## Why is Repulsive Grizzly Different?
 The main difference between Repulsive Grizzly and other load testing tools is we're specifically focused on providing a framework that makes Application Denial of Service testing easier.  Some features that are useful in Repulsive Grizzly include:
-* Optional suport to run tests within [Cloudy Kraken](https://github.com/netflix-skunkworks/cloudy-kraken) a red team orchestration framework that can help you scale up your test across multipe datacenters or regions
+* Optional support to run tests within [Cloudy Kraken](https://github.com/netflix-skunkworks/cloudy-kraken) a red team orchestration framework that can help you scale up your test across multiple datacenters or regions
 * Logging messages to centralized Amazon SNS queue for aggregation during larger exercises such as running a multiple agent test with [Cloudy Kraken](https://github.com/netflix-skunkworks/cloudy-kraken)
 * Ability to round robin authentication objects using placeholders in headers, cookies, and/or POST:GET:PUT:DELETE data
 * Ability to round robin target URLs or fix one URL per attack agent
@@ -28,7 +28,7 @@ The typical execution of Repulsive Grizzly is as follows:
 3. Validate that the sanity check URL returns a HTTP 200
 4. Build Eventlet Pool of request objects based on the commands file file
 5. Begin execution of the test
-6. Log messages to console and Amazon SNS messagnging queue (if configured)
+6. Log messages to console and Amazon SNS messaging queue (if configured)
 7. Each iteration check TTL and one triggered, exit the test
 
 ## Getting Started
