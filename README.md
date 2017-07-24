@@ -31,11 +31,13 @@ The typical execution of Repulsive Grizzly is as follows:
 6. Log messages to console and Amazon SNS messagnging queue (if configured)
 7. Each iteration check TTL and one triggered, exit the test
 
+## Getting Started
+[Wiki](https://github.com/netflix-skunkworks/repulsive-grizzly/wiki)
+
 ## What is Skunkworks?
 Skunkworks projects are not fully supported unlike other projects we open source.  We are leveraging the Skunkworks project to demonstrate one way engineers can approach application layer load testing.  We'd be happy to accept Pull Requests for bug fixes or features.  
 
 ## Release History ##
-
 **Version 1.0** - *July 29, 2017*
 
 Initial Release
