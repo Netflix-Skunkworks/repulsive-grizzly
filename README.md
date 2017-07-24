@@ -1,4 +1,4 @@
-# repulsive-grizzly
+# Repulsive Grizzly
 Application Layer DoS Testing Framework
 
 <img src="http://i.imgur.com/ELSsnaw.jpg" width="300">
