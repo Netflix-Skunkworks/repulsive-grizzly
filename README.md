@@ -18,5 +18,14 @@ The main difference between Repulsive Grizzly and other load testing tools is we
 * HTTP Proxy support for troubleshooting
 * Grizzly Dashboard to aggregate and graph http status codes while you run multi agent tests
 
+## How Does Repulsive Grizzly Perform Tests?
+<diagram>
 
+## What is Skunkworks?
+Skunkworks projects are not fully supported unlike other projects we open source.  We are leveraging the Skunkworks project to demonstrate one way engineers can approach application layer load testing.  We'd be happy to accept Pull Requests for bug fixes or features.  
 
+## Release History ##
+
+**Version 1.0** - *July 29, 2017*
+
+Initial Release
