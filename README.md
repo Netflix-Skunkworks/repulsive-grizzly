@@ -20,6 +20,7 @@ The main difference between Repulsive Grizzly and other load testing tools is we
 
 ## How Does Repulsive Grizzly Perform Tests?
 ![Grizzly Flowchat](https://i.imgur.com/DxBdLXU.png)
+
 The typical execution of Repulsive Grizzly is as follows:
 
 1. Validate the commands.json file for good settings
