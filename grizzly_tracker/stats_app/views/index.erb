@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="/javascript/update_agent_status.js"></script>
+        <script src="/javascript/jquery-3.0.0.min.js"></script>
+        <script src="/javascript/update_exceptions.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<div id="background"></div>
+	<div id="everything">
+		<h1>Grizzly Tracker</h1>
+                
+		<div id="chart"></div>
+	</div>
+
+        <div id="agent_statuses">
+          <%= divs %>
+        </div>
+     
+       <div id="last_exceptions">
+         No Exceptions
+       </div>
+<script src="/javascript/update_bar_chart.js"></script>
+</body>

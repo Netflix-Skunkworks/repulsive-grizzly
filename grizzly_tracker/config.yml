@@ -1,0 +1,10 @@
+db_host: ""
+db_name: ""
+db_username: ""
+db_password: ""
+
+sqs_region: ""
+sqs_queue: ""
+
+sns_region: ""
+sns_topic: ""

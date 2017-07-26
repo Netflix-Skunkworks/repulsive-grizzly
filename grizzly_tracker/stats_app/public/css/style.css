@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite')
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: inherit;
+}
+
+h1 {
+	font-size:300%;
+   font-family: "Special Elite", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif; 
+   font-weight: 300;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+        color: red;
+}
+h2 {
+	font-size: 12px;
+	font-style: italic;
+	color: gray;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#everything{
+	width:600px;
+	margin:20px;
+}
+#chart{
+	width:600px;
+	height:400px;
+}
+.bar{
+	fill:#eaeaea;
+}
+text.label{
+	fill: #777777;
+	color: #777777;
+	font-size: 20px;
+	font-weight: bold;
+}
+text.category{
+	fill: #666666;
+	font-size: 20px;
+}
+#row  {
+    display: table-row;
+}
+
+.agent_no_status{
+        font-size: 15px;
+        display: table-cell;
+	width: 50px;
+        text-align: center;
+        margin: 4px 4px 4px 4px;
+        border: 1px solid black;
+        background-color: #C0C0C0;
+}
+
+.agent_success{
+        font-size: 15px;
+        display: table-cell;
+        width: 50px;
+        text-align: center;
+        margin: 4px 4px 4px 4px;
+        border: 1px solid black;
+        background-color: #008000;
+}
+
+.agent_fail{
+        font-size: 15px;
+        display: table-cell;
+        width: 50px;
+        text-align: center;
+        margin: 4px 4px 4px 4px;
+        border: 1px solid black;
+        background-color: #FF0000;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/grizzly_logo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    opacity: 0.1;
+    filter:alpha(opacity=80);
+}
