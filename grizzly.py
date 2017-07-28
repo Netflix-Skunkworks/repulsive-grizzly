@@ -374,7 +374,7 @@ class GrizzlyConfiguration():
 
 
 if __name__ == "__main__":
-    # Initalize class and load command file
+    # Initialize class and load command file
     grizzly_config = GrizzlyConfiguration()
     grizzly_config.load_commands("commands.json")
 

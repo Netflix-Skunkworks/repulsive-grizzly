@@ -14,7 +14,7 @@ client2 = Mysql2::Client.new(:database => configs["db_name"], :host => configs["
 
 client3 = Mysql2::Client.new(:database => configs["db_name"], :host => configs["db_host"], :username => configs["db_username"], :password => configs["db_password"])
 
-#intial page load
+#initial page load
 get '/' do
   div_str = "No Agents Reported Yet"
   erb :index, locals: {divs: div_str}
