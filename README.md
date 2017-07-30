@@ -12,9 +12,9 @@ The main difference between Repulsive Grizzly and other load testing tools is we
 * Logging messages to centralized Amazon SNS queue for aggregation during larger exercises such as running a multiple agent test with [Cloudy Kraken](https://github.com/netflix-skunkworks/cloudy-kraken)
 * Ability to round robin authentication objects using placeholders in headers, cookies, and/or POST:GET:PUT:DELETE data
 * Ability to round robin target URLs or fix one URL per attack agent
-* Sanity check logic to confirm your environment is stable enough to begin the test. 
+* Sanity check logic to confirm your environment is stable enough to begin the test 
 * Leverages [Eventlet](http://eventlet.net/) for high concurrency, allowing you to scale up to > 300 threads per repulsive grizzly agent
-* Provides TTL as well as start time so multiple agent scans conducted with Cloudy Kraken start and stop at the same time
+* Provides TTL as well as start time so multiple agent scans conducted with [Cloudy Kraken](https://github.com/netflix-skunkworks/cloudy-kraken) start and stop at the same time
 * HTTP Proxy support for troubleshooting
 * Grizzly Dashboard to aggregate and graph http status codes while you run multi agent tests
 
@@ -26,7 +26,7 @@ The typical execution of Repulsive Grizzly is as follows:
 1. Validate the commands.json file for good settings
 2. Sleep until start time is triggered
 3. Validate that the sanity check URL returns a HTTP 200
-4. Build Eventlet Pool of request objects based on the commands file file
+4. Build Eventlet Pool of request objects based on the commands file
 5. Begin execution of the test
 6. Log messages to console and Amazon SNS messaging queue (if configured)
 7. Each iteration check TTL and one triggered, exit the test
